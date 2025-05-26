@@ -1,0 +1,140 @@
+/* 
+  Localizable.strings
+  exerun
+
+  Created by Nazar Odemchuk on 23/4/2025.
+  
+*/
+
+
+// for all ViewControllers
+"back_button" = "Назад";
+
+
+// InitialAuthViewController
+"auth_signin" = "Увійти";
+"auth_signup" = "Зареєструватися";
+
+
+// RegistrationViewController
+"placeholder_first_name" = "Ім'я";
+"placeholder_last_name" = "Прізвище";
+"placeholder_email" = "Ел. пошта";
+"placeholder_password" = "Пароль";
+"placeholder_repeat_password" = "Повторіть пароль";
+"button_sign_up" = "Зареєструватися";
+"button_back" = "Назад";
+"button_google_signup" = "Зареєструватися через Google";
+"error_email" = "Введіть правильну адресу";
+"error_password" = "Мінімум 8 символів";
+"error_repeat_password" = "Паролі не співпадають";
+"error_registration_failed" = "Реєстрація не вдалася";
+
+
+// LoginViewController
+"placeholder_email" = "Електронна пошта";
+"placeholder_password" = "Пароль";
+"button_forgot_password" = "Забули пароль?";
+"button_google_signin" = "Увійти через Google";
+"button_sign_in" = "Увійти";
+"button_back" = "Назад";
+"error_invalid_email" = "Будь ласка, введіть дійсну електронну пошту";
+"error_short_password" = "Мінімум 8 символів";
+"error_credentials" = "Невірні облікові дані";
+"error" = "Помилка";
+"error_generic" = "Щось пішло не так. Будь ласка, спробуйте ще раз.";
+
+
+// ProfileOnboardingViewController
+"next_button" = "Далі";
+"submit_button" = "Зберегти";
+
+// HeightStepView
+"choose_height_label" = "Оберіть ваш зріст (см)";
+"height_unit_cm" = "см";
+
+// WeightStepView
+"choose_weight_label" = "Оберіть вашу вагу (кг)";
+"weight_unit_kg" = "кг";
+
+// BirthdayStepView
+"select_birthdate_label" = "Оберіть вашу дату народження";
+
+// GenderStepView
+"select_gender_label" = "Оберіть вашу стать";
+"gender_male" = "Чоловіча"; // also used in FinalReviewView
+"gender_female" = "Жіноча"; // also used in FinalReviewView
+
+// FinalReviewView
+"height_title" = "Зріст";
+"weight_title" = "Вага";
+"age_title" = "Вік";
+"gender_title" = "Стать";
+"change_button" = "Змінити";
+"unit_cm" = "см";
+"unit_kg" = "кг";
+
+
+// WorkOutViewController
+"home_help_1" = "Це головний екран.";
+"home_help_2" = "Перетягніть картки тренувань, щоб змінити їх порядок.";
+"home_help_3" = "Торкніться картки, щоб розпочати тренування.";
+"workouts_title" = "Тренування";
+"quick_workout" = "ШВИДКЕ ТРЕНУВАННЯ";
+"quick_workout_desc" = "Таймер для серій роботи та відпочинку";
+"running" = "БІГ";
+"running_desc" = "Побудувати маршрут залежно від дистанції";
+"gym_workout" = "ТРЕНАЖЕРНИЙ ЗАЛ";
+"gym_workout_desc" = "Створіть план для тренування в залі";
+"hike_walk" = "ПОХІД/ПРОГУЛЯНКА";
+"hike_walk_desc" = "Відстежуйте свій похід ефективно";
+"cycling" = "ВЕЛОСИПЕД";
+"cycling_desc" = "Відстежуйте велосипедні маршрути";
+"skiing" = "ЛИЖІ/СНОУБОРД";
+"skiing_desc" = "Відстежуйте катання на лижах/сноуборді";
+
+
+// SettingsMainViewController
+"account_settings" = "Налаштування облікового запису";
+"profile_settings" = "Налаштування профілю";
+"change_language" = "Змінити мову";
+"units_of_measurement" = "Одиниці виміру";
+"contact_us" = "Зв'язатися з нами";
+
+
+// ProfileSettingsViewController
+"save_changes_button" = "Зберегти зміни"; // AccountSettingsViewController too
+
+
+// AccountSettingsViewController
+"logout_button" = "Вийти";
+"name_placeholder" = "Ім’я";
+"surname_placeholder" = "Прізвище";
+
+
+// ContactUsViewController
+"contact_message" = "Ви можете зв’язатися з нами за цією адресою:";
+"copied_confirmation" = "Скопійовано!";
+
+
+// ChangeLanguageViewController
+"change_language" = "Змінити мову";
+"app_restart_notice" = "Мову змінено. Додаток буде перезапущено, щоб застосувати зміни.";
+
+
+// TabBarViewController
+"tab_stats" = "Статистика";
+"tab_workout" = "exerun";
+"tab_friends" = "Друзі";
+
+
+// StatsViewController
+"statistics_title" = "Статистика";
+"stats_help_1" = "Це ваш екран прогресу.";
+"stats_help_2" = "Незабаром тут з’являться детальні графіки.";
+
+
+// FriendsViewController
+"friends_title" = "Друзі";
+"friends_help_1" = "На цьому екрані відображаються твої друзі з фітнесу.";
+"friends_help_2" = "Натисни на друга, щоб переглянути його активність або запросити нових друзів.";

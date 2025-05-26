@@ -1,0 +1,140 @@
+/* 
+  Localizable.strings
+  exerun
+
+  Created by Nazar Odemchuk on 23/4/2025.
+  
+*/
+
+
+// for all ViewControllers
+"back_button" = "Back";
+
+
+// InitialAuthViewController
+"auth_signin" = "Sign in";
+"auth_signup" = "Sign up";
+
+
+// RegistrationViewController
+"placeholder_first_name" = "First name";
+"placeholder_last_name" = "Last name";
+"placeholder_email" = "Email";
+"placeholder_password" = "Password";
+"placeholder_repeat_password" = "Repeat password";
+"button_sign_up" = "Sign up";
+"button_back" = "Back";
+"button_google_signup" = "Sign up with Google";
+"error_email" = "Enter a valid email";
+"error_password" = "Min 8 chars";
+"error_repeat_password" = "Passwords don’t match";
+"error_registration_failed" = "Registration failed";
+
+
+// LoginViewController
+"placeholder_email" = "Email";
+"placeholder_password" = "Password";
+"button_forgot_password" = "Forgot password?";
+"button_google_signin" = "Sign in with Google";
+"button_sign_in" = "Sign in";
+"button_back" = "Back";
+"error_invalid_email" = "Please enter a valid email";
+"error_short_password" = "Minimum 8 characters";
+"error_credentials" = "Invalid credentials";
+"error" = "Error";
+"error_generic" = "Something went wrong. Please try again.";
+
+
+// ProfileOnboardingViewController
+"next_button" = "Next";
+"submit_button" = "Submit";
+
+// HeightStepView
+"choose_height_label" = "Choose your height (cm)";
+"height_unit_cm" = "cm";
+
+// WeightStepView
+"choose_weight_label" = "Choose your weight (kg)";
+"weight_unit_kg" = "kg";
+
+// BirthdayStepView
+"select_birthdate_label" = "Select your date of birth";
+
+// GenderStepView
+"select_gender_label" = "Select your gender";
+"gender_male" = "Male"; // also used in FinalReviewView
+"gender_female" = "Female"; // also used in FinalReviewView
+
+// FinalReviewView
+"height_title" = "Height";
+"weight_title" = "Weight";
+"age_title" = "Age";
+"gender_title" = "Gender";
+"change_button" = "Change";
+"unit_cm" = "cm";
+"unit_kg" = "kg";
+
+
+// WorkOutViewController
+"home_help_1" = "This is the main screen.";
+"home_help_2" = "Drag workout cards to reorder them.";
+"home_help_3" = "Tap a card to start a workout.";
+"workouts_title" = "Workouts";
+"quick_workout" = "QUICK WORKOUT";
+"quick_workout_desc" = "Timer for work-rest sets";
+"running" = "RUNNING";
+"running_desc" = "Build a route depending on distance";
+"gym_workout" = "GYM WORKOUT";
+"gym_workout_desc" = "Make your personalized plan for gym session";
+"hike_walk" = "HIKE/WALK";
+"hike_walk_desc" = "Track your hike or walk efficiently";
+"cycling" = "CYCLING";
+"cycling_desc" = "Track your cycling routes and stats";
+"skiing" = "SKIING/SNOWBOARDING";
+"skiing_desc" = "Track your skiing or snowboarding activity";
+
+
+// SettingsMainViewController
+"account_settings" = "Account Settings";
+"profile_settings" = "Profile Settings";
+"change_language" = "Change Language";
+"units_of_measurement" = "Units of Measurement";
+"contact_us" = "Contact Us";
+
+
+// ProfileSettingsViewController
+"save_changes_button" = "Save Changes"; // AccountSettingsViewController too
+
+
+// AccountSettingsViewController
+"logout_button" = "Log Out";
+"name_placeholder" = "First Name";
+"surname_placeholder" = "Last Name";
+
+
+// ContactUsViewController
+"contact_message" = "You can contact us at the email below:";
+"copied_confirmation" = "Copied!";
+
+
+// ChangeLanguageViewController
+"change_language" = "Change Language";
+"app_restart_notice" = "The language has been changed. The app will be restarted to apply changes.";
+
+
+// TabBarViewController
+"tab_stats" = "Stats";
+"tab_workout" = "exerun";
+"tab_friends" = "Friends";
+
+
+// StatsViewController
+"statistics_title" = "Statistics";
+"stats_help_1" = "This is your progress screen.";
+"stats_help_2" = "We’ll soon show detailed charts here.";
+
+
+// FriendsViewController
+"friends_title" = "Friends";
+"friends_help_1" = "This screen shows your fitness friends.";
+"friends_help_2" = "Tap a friend to view their activity or invite new friends.";

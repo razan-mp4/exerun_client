@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.nazarodemchuk.exerun</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>MKDirectionsRequest</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.apple.maps.directionsrequest</string>
+			</array>
+		</dict>
+	</array>
+	<key>MKDirectionsApplicationSupportedModes</key>
+	<array>
+		<string>MKDirectionsModeBike</string>
+		<string>MKDirectionsModePedestrian</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+    <key>NSPhotoLibraryUsageDescription</key>
+        <string>We need access to your photo library to select an image.</string>
+    <key>NSCameraUsageDescription</key>
+        <string>We need access to your camera to take a photo.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <!-- 1) the reversed client ID (for older flows) -->
+            <string>com.googleusercontent.apps.888637968994-3vuh8b2p8hrta4ron0bk1go1o9qf9gf0</string>
+            <!-- 2) the raw client ID  -->
+            <string>888637968994-3vuh8b2p8hrta4ron0bk1go1o9qf9gf0.apps.googleusercontent.com</string>
+        </array>
+        </dict>
+    </array>
+    
+    <key>GOOGLE_CLIENT_ID</key>
+    <string>888637968994-3vuh8b2p8hrta4ron0bk1go1o9qf9gf0.apps.googleusercontent.com</string>
+
+</dict>
+</plist>
